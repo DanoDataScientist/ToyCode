@@ -21,6 +21,7 @@ def generate():
     return flat_list
 
 #set number of iterations to run, in the "while i < 15", you can change i < N to whatever number you'd like
+#currently set to 15 iterations
 i = 0
 while i < 15:
     lotteryList = generate()
